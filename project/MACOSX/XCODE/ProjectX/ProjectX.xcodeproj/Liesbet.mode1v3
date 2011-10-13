@@ -268,13 +268,14 @@
 								<string>CF28CB3014477BD8008B576B</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>CF28CB7F14477FD5008B576B</string>
+								<string>CF28CB9714478225008B576B</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
-									<integer>7</integer>
+									<integer>5</integer>
+									<integer>4</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -325,7 +326,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CF28CB881447804C008B576B</string>
+										<string>CF28CB9814478225008B576B</string>
 										<key>history</key>
 										<array>
 											<string>CF28CB6914477F07008B576B</string>
@@ -528,13 +529,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CF28CB901447804C008B576B</string>
+		<string>CF28CB9914478225008B576B</string>
 		<string>CF28CB911447804C008B576B</string>
 		<string>CF28CB921447804C008B576B</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>CF28CB6E14477F07008B576B</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/Shared/ProjectX/project/MACOSX/XCODE/ProjectX/ProjectX.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>567 253 788 504 0 0 1680 1028 </string>

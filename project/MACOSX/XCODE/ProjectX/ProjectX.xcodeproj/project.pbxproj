@@ -12,12 +12,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CF28CB4114477C29008B576B /* Stager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stager-Info.plist"; sourceTree = "<group>"; };
-		CF28CB4E14477D6E008B576B /* BuildTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuildTest-Info.plist"; sourceTree = "<group>"; };
 		CF28CB5514477DED008B576B /* build.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = build.h; path = ../../../../src/build.h; sourceTree = "<group>"; };
 		CF28CB5614477DED008B576B /* build.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = build.c; path = ../../../../src/build.c; sourceTree = "<group>"; };
 		CF28CB7714477FA4008B576B /* stager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF28CB7914477FA4008B576B /* stager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "stager-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,11 +32,8 @@
 			isa = PBXGroup;
 			children = (
 				CF28CB3F14477C28008B576B /* Products */,
-				CF28CB4114477C29008B576B /* Stager-Info.plist */,
-				CF28CB4E14477D6E008B576B /* BuildTest-Info.plist */,
 				CF28CB5514477DED008B576B /* build.h */,
 				CF28CB5614477DED008B576B /* build.c */,
-				CF28CB7914477FA4008B576B /* stager-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,7 +131,6 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = "stager-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
 					"-framework",
