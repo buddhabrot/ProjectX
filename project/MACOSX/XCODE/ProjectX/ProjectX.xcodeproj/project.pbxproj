@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF28CB7D14477FC6008B576B /* build.h in Sources */ = {isa = PBXBuildFile; fileRef = CF28CB5514477DED008B576B /* build.h */; };
-		CF28CB7E14477FC6008B576B /* build.c in Sources */ = {isa = PBXBuildFile; fileRef = CF28CB5614477DED008B576B /* build.c */; };
+		CF28CBA314478384008B576B /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF28CBA214478384008B576B /* GLUT.framework */; };
+		CF28CBA7144783A8008B576B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF28CBA6144783A8008B576B /* OpenGL.framework */; };
+		CF28CBAC144783E7008B576B /* view.c in Sources */ = {isa = PBXBuildFile; fileRef = CF28CBAB144783E7008B576B /* view.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CF28CB5514477DED008B576B /* build.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = build.h; path = ../../../../src/build.h; sourceTree = "<group>"; };
-		CF28CB5614477DED008B576B /* build.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = build.c; path = ../../../../src/build.c; sourceTree = "<group>"; };
 		CF28CB7714477FA4008B576B /* stager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF28CBA214478384008B576B /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		CF28CBA6144783A8008B576B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		CF28CBAA144783E7008B576B /* view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = view.h; path = ../../../../src/view.h; sourceTree = "<group>"; };
+		CF28CBAB144783E7008B576B /* view.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = view.c; path = ../../../../src/view.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -22,6 +25,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF28CBA314478384008B576B /* GLUT.framework in Frameworks */,
+				CF28CBA7144783A8008B576B /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,8 +37,10 @@
 			isa = PBXGroup;
 			children = (
 				CF28CB3F14477C28008B576B /* Products */,
-				CF28CB5514477DED008B576B /* build.h */,
-				CF28CB5614477DED008B576B /* build.c */,
+				CF28CBA214478384008B576B /* GLUT.framework */,
+				CF28CBA6144783A8008B576B /* OpenGL.framework */,
+				CF28CBAA144783E7008B576B /* view.h */,
+				CF28CBAB144783E7008B576B /* view.c */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,9 +55,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF28CB7614477FA4008B576B /* stager */ = {
+		CF28CB7614477FA4008B576B /* view */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF28CB7C14477FA4008B576B /* Build configuration list for PBXNativeTarget "stager" */;
+			buildConfigurationList = CF28CB7C14477FA4008B576B /* Build configuration list for PBXNativeTarget "view" */;
 			buildPhases = (
 				CF28CB7314477FA4008B576B /* Resources */,
 				CF28CB7414477FA4008B576B /* Sources */,
@@ -60,7 +67,7 @@
 			);
 			dependencies = (
 			);
-			name = stager;
+			name = view;
 			productName = stager;
 			productReference = CF28CB7714477FA4008B576B /* stager.app */;
 			productType = "com.apple.product-type.application";
@@ -78,7 +85,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF28CB7614477FA4008B576B /* stager */,
+				CF28CB7614477FA4008B576B /* view */,
 			);
 		};
 /* End PBXProject section */
@@ -98,8 +105,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF28CB7D14477FC6008B576B /* build.h in Sources */,
-				CF28CB7E14477FC6008B576B /* build.c in Sources */,
+				CF28CBAC144783E7008B576B /* view.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,7 +187,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF28CB7C14477FA4008B576B /* Build configuration list for PBXNativeTarget "stager" */ = {
+		CF28CB7C14477FA4008B576B /* Build configuration list for PBXNativeTarget "view" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF28CB7A14477FA4008B576B /* Debug */,

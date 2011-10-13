@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -272,10 +274,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
 									<integer>7</integer>
-									<integer>5</integer>
-									<integer>4</integer>
+									<integer>6</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -309,14 +309,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>build.h</string>
+								<string>view.c</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,16 +322,16 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>build.h</string>
+										<string>view.c</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CF28CBA1144782D4008B576B</string>
+										<string>CF28CBBF14478525008B576B</string>
 										<key>history</key>
 										<array>
-											<string>CF28CB6A14477F07008B576B</string>
-											<string>CF28CBA0144782D4008B576B</string>
-											<string>CF28CB9C144782B7008B576B</string>
+											<string>CF28CBAF1447847B008B576B</string>
+											<string>CF28CBB4144784D6008B576B</string>
+											<string>CF28CBB5144784D6008B576B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -531,12 +529,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CF28CB9F144782B7008B576B</string>
 		<string>CF28CB911447804C008B576B</string>
 		<string>CF28CB921447804C008B576B</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>CF28CB6E14477F07008B576B</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>CF28CB6E14477F07008B576B</string>
 		<string>/Users/Shared/ProjectX/project/MACOSX/XCODE/ProjectX/ProjectX.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
