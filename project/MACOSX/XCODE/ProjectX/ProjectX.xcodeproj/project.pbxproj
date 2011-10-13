@@ -141,6 +141,7 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = stager;
 				SYMROOT = ../../../../build/MACOSX;
+				VERSION_INFO_BUILDER = Maarten;
 			};
 			name = Debug;
 		};
