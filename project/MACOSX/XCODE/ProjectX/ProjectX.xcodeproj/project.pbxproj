@@ -1,0 +1,202 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF28CB7D14477FC6008B576B /* build.h in Sources */ = {isa = PBXBuildFile; fileRef = CF28CB5514477DED008B576B /* build.h */; };
+		CF28CB7E14477FC6008B576B /* build.c in Sources */ = {isa = PBXBuildFile; fileRef = CF28CB5614477DED008B576B /* build.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF28CB4114477C29008B576B /* Stager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stager-Info.plist"; sourceTree = "<group>"; };
+		CF28CB4E14477D6E008B576B /* BuildTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuildTest-Info.plist"; sourceTree = "<group>"; };
+		CF28CB5514477DED008B576B /* build.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = build.h; path = ../../../../src/build.h; sourceTree = "<group>"; };
+		CF28CB5614477DED008B576B /* build.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = build.c; path = ../../../../src/build.c; sourceTree = "<group>"; };
+		CF28CB7714477FA4008B576B /* stager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF28CB7914477FA4008B576B /* stager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "stager-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF28CB7514477FA4008B576B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF28CB3014477BD8008B576B = {
+			isa = PBXGroup;
+			children = (
+				CF28CB3F14477C28008B576B /* Products */,
+				CF28CB4114477C29008B576B /* Stager-Info.plist */,
+				CF28CB4E14477D6E008B576B /* BuildTest-Info.plist */,
+				CF28CB5514477DED008B576B /* build.h */,
+				CF28CB5614477DED008B576B /* build.c */,
+				CF28CB7914477FA4008B576B /* stager-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		CF28CB3F14477C28008B576B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF28CB7714477FA4008B576B /* stager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF28CB7614477FA4008B576B /* stager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF28CB7C14477FA4008B576B /* Build configuration list for PBXNativeTarget "stager" */;
+			buildPhases = (
+				CF28CB7314477FA4008B576B /* Resources */,
+				CF28CB7414477FA4008B576B /* Sources */,
+				CF28CB7514477FA4008B576B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stager;
+			productName = stager;
+			productReference = CF28CB7714477FA4008B576B /* stager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF28CB3214477BD8008B576B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CF28CB3514477BD8008B576B /* Build configuration list for PBXProject "ProjectX" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = CF28CB3014477BD8008B576B;
+			productRefGroup = CF28CB3F14477C28008B576B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF28CB7614477FA4008B576B /* stager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF28CB7314477FA4008B576B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF28CB7414477FA4008B576B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF28CB7D14477FC6008B576B /* build.h in Sources */,
+				CF28CB7E14477FC6008B576B /* build.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF28CB3314477BD8008B576B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		CF28CB3414477BD8008B576B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		CF28CB7A14477FA4008B576B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "stager-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = stager;
+				SYMROOT = ../../../../build/MACOSX;
+			};
+			name = Debug;
+		};
+		CF28CB7B14477FA4008B576B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "stager-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = stager;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF28CB3514477BD8008B576B /* Build configuration list for PBXProject "ProjectX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF28CB3314477BD8008B576B /* Debug */,
+				CF28CB3414477BD8008B576B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF28CB7C14477FA4008B576B /* Build configuration list for PBXNativeTarget "stager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF28CB7A14477FA4008B576B /* Debug */,
+				CF28CB7B14477FA4008B576B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF28CB3214477BD8008B576B /* Project object */;
+}
