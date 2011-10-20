@@ -1,1 +1,5 @@
 build
+.xcodeproj/ 
+!*.xcodeproj/project.pbxproj
+/project/MACOSX/XCODE/ProjectX/ProjectX.xcodeproj/Liesbet.pbxuser
+/project/MACOSX/XCODE/ProjectX/ProjectX.xcodeproj/Liesbet.mode1v3
